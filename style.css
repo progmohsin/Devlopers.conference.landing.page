@@ -4,13 +4,14 @@
     margin: 0;
     padding: 0;
     font-family:'Inter',sans-serif;
+    box-sizing: border-box;
 }
 .nav-parent{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-style: normal;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
     padding: 15px 5%;
 }
@@ -69,8 +70,8 @@
 }
 
 .hero-content h1{
-    font-size: 54px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 700;
     margin-bottom: 15px;
     
 }
@@ -87,3 +88,52 @@
 
 }
 
+.Speakers-card-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.sp-sec-title{
+    text-align: center;
+    margin: 80px 60px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.speakers-card{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 223, 226);
+}
+.speakers-card img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.speakers-info{
+    padding: 20px;
+}
+
+.speakers-topic{
+    color: rgb(37, 99, 234);
+    font-weight: 700;
+    margin-bottom: 14px;    
+}
+
+.speakers-info h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(14, 29, 44);
+}
+
+.speakers-role{
+    color: rgb(151, 151, 151);
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
