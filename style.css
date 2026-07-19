@@ -46,10 +46,14 @@
 }
 
 .hero-sec-parent{
+    position: relative;
+    height: 550px;
+    width: 100%;
     min-height: 75vh;
-    background-image: linear-gradient(rgba(7,11,19,0.85), rgba(7,11,19,0.9)), url(./Materials/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./Materials/banner.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 
     display: flex;
     justify-content: center;
@@ -59,7 +63,7 @@
 }  
 
 .hero-content{
-    max-width: 850px;
+    max-width: 750px;
     color: white;
 
 }
@@ -67,7 +71,19 @@
 .hero-content h1{
     font-size: 54px;
     font-weight: 800;
-    margin-bottom: 20px;
-    letter-spacing: -1px;
+    margin-bottom: 15px;
+    
+}
+
+.hero-content p{
+    color: rgb(231, 230, 231);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 200px;
+}
+
+.hero-btn{
+    padding: 15px 35px;
+
 }
 
