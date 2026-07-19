@@ -44,3 +44,30 @@
 .cmn-btn:hover{
     background-color: rgb(148, 148, 219);
 }
+
+.hero-sec-parent{
+    min-height: 75vh;
+    background-image: linear-gradient(rgba(7,11,19,0.85), rgba(7,11,19,0.9)), url(./Materials/banner.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 25px;
+}  
+
+.hero-content{
+    max-width: 850px;
+    color: white;
+
+}
+
+.hero-content h1{
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
