@@ -76,6 +76,10 @@
     
 }
 
+.emphasis{
+    font-style: italic;
+}
+
 .hero-content p{
     color: rgb(231, 230, 231);
     font-size: 15px;
