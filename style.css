@@ -270,7 +270,6 @@
    AI HACKATHON SECTION STYLES
    ========================================== */
 
-
 .hackathon-section {
   background-color: #0b132b; /* Deep Dark Navy Background */
   color: #ffffff;
@@ -323,9 +322,10 @@
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+    background-clip: text;                  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hackathon-subtitle {
